@@ -28,9 +28,9 @@ class Video
                              $"Number of Comments: {GetCommentCount()}\n" +
                              $"Comments:\n";
 
-        foreach (var comment in _comments) // add list of comments to displaytext string
+        foreach (var comment in _comments) // add list of comments to displayText string
         {
-            displayText += $"- {comment.CommenterName}: {comment.Text}\n";
+            displayText += $"- {comment.GetCommenterName()}: {comment.GetText()}\n"; // Updated references to getter methods
         }
 
         return displayText; // return string of text to display

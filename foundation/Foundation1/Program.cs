@@ -6,14 +6,14 @@ class Program
     static void Main(string[] args)
     {
         // Create comments for videos
-        var comments1 = new List<Comment>
+        var comments1 = new List<Comment> // comments for first video
         {
             new Comment("John", "Video comment text 1"),
             new Comment("Jack", "Video comment text 2"),
             new Comment("Robert", "Video comment text 3")
         };
 
-        var comments2 = new List<Comment>
+        var comments2 = new List<Comment>  // comments for second video
         {
             new Comment("Angela", "Video comment text 4"),
             new Comment("Alex", "Video comment text 5"),
@@ -21,7 +21,7 @@ class Program
             new Comment("Lynnette", "Video comment text 7")
         };
 
-        var comments3 = new List<Comment>
+        var comments3 = new List<Comment>  // comments for third video
         {
             new Comment("Grace", "Video comment text 8"),
             new Comment("Nathalie", "Video comment text 9"),
@@ -36,7 +36,7 @@ class Program
         // Add videos to a list
         var videos = new List<Video> { video1, video2, video3 };
 
-        // Display video information
+        // Display video information for each video in list
         foreach (var video in videos)
         {
             Console.WriteLine(video.GetDisplayText());
