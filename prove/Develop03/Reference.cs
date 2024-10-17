@@ -13,7 +13,7 @@ class Reference
         _book = book;
         _chapter = chapter;
         _verse = verse;
-        _endVerse = 0; // set default value for endVerse if none given
+        _endVerse = 0; // set default value for endVerse if none given 
     }
 
     public Reference(string book, int chapter, int verse, int endVerse)

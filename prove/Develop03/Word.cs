@@ -22,11 +22,6 @@ class Word
         }
     }
 
- //   public void Show()
-  //  {
-
- //   }
-
     public bool IsHidden()
     {
         if(_text2 != "")

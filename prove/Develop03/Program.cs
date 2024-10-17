@@ -23,6 +23,6 @@ class Program
                 }
                 scripture.HideRandomWords(3);
             }
-        }while(user_answer != "quit");
+        }while(user_answer != "quit"); 
     }
 }
