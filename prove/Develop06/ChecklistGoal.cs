@@ -17,7 +17,7 @@ public class ChecklistGoal : Goal
         _amountCompleted++;
         if (_amountCompleted >= _target)
         {
-            _points += _bonus; // Add bonus points when the target is reached
+            _points += _bonus;
         }
     }
 

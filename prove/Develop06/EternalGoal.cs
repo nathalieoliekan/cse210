@@ -5,12 +5,12 @@ public class EternalGoal : Goal
 
     public override void RecordEvent()
     {
-        // This method can be empty or can increment some ongoing score if needed
+        
     }
 
     public override bool IsComplete()
     {
-        return false; // Eternal goals are never complete
+        return false;
     }
 
     public override string GetStringRepresentation()

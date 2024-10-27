@@ -175,7 +175,7 @@ public class GoalManager
                     var simpleGoal = new SimpleGoal(name, description, points);
                     if (isComplete)
                     {
-                        simpleGoal.RecordEvent(); // Mark it complete if needed
+                        simpleGoal.RecordEvent();
                     }
                     _goals.Add(simpleGoal);
                     break;
@@ -193,7 +193,7 @@ public class GoalManager
                     var checklistGoal = new ChecklistGoal(name, description, points, target, bonus);
                     for (int j = 0; j < amountCompleted; j++)
                     {
-                        checklistGoal.RecordEvent(); // Increment the completed count
+                        checklistGoal.RecordEvent();
                     }
                     _goals.Add(checklistGoal);
                     break;
